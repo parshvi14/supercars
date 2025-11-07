@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supercar Showcase</title>
+
+    <meta name="description" content="Explore the world's most exclusive supercars with stunning visuals and unique animations." />
+    <meta name="author" content="Dualite Alpha" />
+
+    <meta property="og:title" content="Supercar Showcase" />
+    <meta property="og:description" content="Explore the world's most exclusive supercars with stunning visuals and unique animations." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://i.ibb.co/mX7gBqY/supercar-preview.png" />
+    <meta property="og:image:alt" content="A sleek, modern website showcasing a red supercar." />
+
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Supercar Showcase" />
+    <meta name="twitter:description" content="Explore the world's most exclusive supercars with stunning visuals and unique animations." />
+    <meta name="twitter:site" content="@dualitedev" />
+    <meta name="twitter:image" content="https://i.ibb.co/mX7gBqY/supercar-preview.png" />
+
+    <link rel="icon" type="image/png" sizes="16x16" href="https://i.ibb.co/HLfD5wgf/dualite-favicon.png" />
+    <link rel="canonical" href="https://alpha.dualite.dev" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/style.css" />
+     <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Supercar Showcase",
+        "url": "https://alpha.dualite.dev",
+        "description": "Explore the world's most exclusive supercars with stunning visuals and unique animations.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Dualite Alpha"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="app">
+      <header class="header">
+        <h1 class="header__logo">SUPER<span class="header__logo--alt">CARS</span></h1>
+        <nav class="header__nav">
+          <a href="#" class="header__nav-link">Models</a>
+          <a href="#" class="header__nav-link">Showcase</a>
+          <a href="#" class="header__nav-link">Contact</a>
+        </nav>
+      </header>
+
+      <main class="showcase">
+        <div class="slider">
+          <div class="slider__controls">
+            <button class="slider__button" id="prev-button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            <button class="slider__button" id="next-button">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p>&copy; 2025 Supercar Showcase. All rights reserved.</p>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
